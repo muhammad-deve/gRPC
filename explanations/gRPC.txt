@@ -1,0 +1,7 @@
+gRPC -----> google Remote Procedure Call. ()
+RPC  -----> Remote Procedue Call (With RPC we can call(execute) the function of different service by RPC as it is own function)
+
+In short RPC is a concept (machine can execute the function of dufferent service as if it is own function) and gRPC is one of the framworks like (JSON-RPC, XML-RPC, gRPC) of RPC presented by google (faster, language-agnosytic, and supports advanced features like streaming and HTTP/2)
+
+gRPC is used for communications between microservices not between Frontend and Backend (it does not work with WEB browsers!)
+gRPC generates a code with using proto buffers (.proto files), You can think of it as a contracct between microservices, we predefie what precedue call and their struct

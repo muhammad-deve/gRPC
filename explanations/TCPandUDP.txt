@@ -1,0 +1,75 @@
+1. TCP (Transmission Control Protocol)
+
+Type: Connection-oriented
+
+How it works:
+
+Establishes a reliable connection between sender and receiver before sending data (3-way handshake).
+
+Ensures all packets arrive in order and retransmits lost packets.
+
+Pros:
+
+Reliable, ordered, error-checked
+
+Good for applications where data integrity matters
+
+Cons:
+
+Slower due to error checking and acknowledgments
+
+Common Use Cases:
+
+Web browsing (HTTP/HTTPS)
+
+Email (SMTP, IMAP, POP3)
+
+File transfer (FTP)
+
+2. UDP (User Datagram Protocol)
+
+Type: Connectionless
+
+How it works:
+
+Sends packets (datagrams) without establishing a connection.
+
+No guarantee that packets arrive or arrive in order.
+
+Pros:
+
+Fast, low latency
+
+Minimal overhead
+
+Cons:
+
+Unreliable (packets may be lost or out of order)
+
+No built-in error checking (application may handle it)
+
+Common Use Cases:
+
+Video/audio streaming
+
+Online gaming
+
+DNS lookups
+
+Real-time applications
+
+3. Key Differences
+Feature	TCP	UDP
+Connection	Connection-oriented	Connectionless
+Reliability	Reliable, ordered	Unreliable, unordered
+Speed	Slower	Faster
+Use case	Web, Email, File Transfer	Streaming, Gaming, DNS
+Error checking	Built-in	Optional, at app level
+
+✅ Summary:
+
+TCP: Reliable but slower.
+
+UDP: Fast but unreliable.
+
+Use TCP when every byte matters, use UDP when speed matters more than reliability.
