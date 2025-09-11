@@ -114,4 +114,6 @@ Use **REST** when:
 - **RPC** is a concept.  
 - **gRPC** is a modern, fast, language-agnostic framework for RPC, created by Google.  
 - It’s widely used in **microservices architectures** because of its **speed, reliability, and streaming capabilities**.  
-- REST is still preferred for browser-facing APIs, but gRPC is the better choice for **service-to-service communication** in distributed systems.
+- REST is still preferred for browser-facing APIs, but gRPC is the better choice for **service-to-service communication** in distributed systems. 
+
+
