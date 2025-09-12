@@ -7,11 +7,10 @@ Examples of RPC frameworks:
 - JSON-RPC
 - XML-RPC
 - gRPC
-
----
+----
 
 ## 2. What is gRPC?
-**gRPC** is an open-source, high-performance RPC framework developed by **Google**.  
+**gRPC** is an open-source, high-performance RPC framework developed by **Google** 
 It is designed for efficient communication between services in **distributed systems** such as microservices.
 
 ### Key Features of gRPC
@@ -115,5 +114,3 @@ Use **REST** when:
 - **gRPC** is a modern, fast, language-agnostic framework for RPC, created by Google.  
 - It’s widely used in **microservices architectures** because of its **speed, reliability, and streaming capabilities**.  
 - REST is still preferred for browser-facing APIs, but gRPC is the better choice for **service-to-service communication** in distributed systems. 
-
-
