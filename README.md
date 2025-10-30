@@ -7,7 +7,7 @@ Examples of RPC frameworks:
 - JSON-RPC
 - XML-RPC
 - gRPC
-----
+-----
 
 ## 2. What is gRPC?
 **gRPC** is an open-source, high-performance RPC framework developed by **Google** 
@@ -21,7 +21,7 @@ It is designed for efficient communication between services in **distributed sys
 - **Auto-generates code** from `.proto` files
 - **Secure communication** (supports TLS/SSL)
 
----
+----
 
 ## 3. How gRPC Works
 1. Define your service and messages in a `.proto` file.
